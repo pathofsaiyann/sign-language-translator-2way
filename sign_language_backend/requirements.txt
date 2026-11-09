@@ -1,0 +1,3 @@
+# Runtime server and GISLR data tooling; Python 3.11/3.12.
+-r requirements-server.txt
+-r requirements-gislr.txt

@@ -1,0 +1,139 @@
+{
+  "repo": "SignerX/SignVerse-2M",
+  "revision": "0c7e956a8471acad3a9cebaeb66bb23bf5deaafa",
+  "phase": "subtitle_audit_only",
+  "tensor_files_created": 0,
+  "statistics": {
+    "json_files": 39197,
+    "recognized_caption_files": 3375,
+    "other_or_missing_language": 34602
+  },
+  "candidates": 37175,
+  "selection": "exact normalized full subtitle; no substring labeling",
+  "requires_alignment_review": true,
+  "top_phrases": {
+    "ase": [
+      {
+        "phrase": "hello everyone",
+        "count": 883
+      },
+      {
+        "phrase": "im crystal cousineau",
+        "count": 580
+      },
+      {
+        "phrase": "welcome to sign1news",
+        "count": 578
+      },
+      {
+        "phrase": "im jethro wooddall",
+        "count": 564
+      },
+      {
+        "phrase": "im candace jones",
+        "count": 498
+      },
+      {
+        "phrase": "your life",
+        "count": 458
+      },
+      {
+        "phrase": "your language",
+        "count": 457
+      },
+      {
+        "phrase": "sign1news",
+        "count": 455
+      },
+      {
+        "phrase": "welcome to sign1news live",
+        "count": 256
+      },
+      {
+        "phrase": "thank you",
+        "count": 156
+      },
+      {
+        "phrase": "yes",
+        "count": 140
+      },
+      {
+        "phrase": "hello",
+        "count": 132
+      },
+      {
+        "phrase": "take a look",
+        "count": 101
+      },
+      {
+        "phrase": "no",
+        "count": 92
+      },
+      {
+        "phrase": "app too",
+        "count": 87
+      },
+      {
+        "phrase": "right",
+        "count": 56
+      },
+      {
+        "phrase": "why",
+        "count": 56
+      },
+      {
+        "phrase": "wow",
+        "count": 47
+      },
+      {
+        "phrase": "music",
+        "count": 45
+      },
+      {
+        "phrase": "bye",
+        "count": 44
+      },
+      {
+        "phrase": "no speech detected",
+        "count": 39
+      },
+      {
+        "phrase": "good",
+        "count": 38
+      },
+      {
+        "phrase": "hi",
+        "count": 38
+      },
+      {
+        "phrase": "and",
+        "count": 36
+      },
+      {
+        "phrase": "im jethro woodall",
+        "count": 36
+      },
+      {
+        "phrase": "ok",
+        "count": 35
+      },
+      {
+        "phrase": "you",
+        "count": 34
+      },
+      {
+        "phrase": "again",
+        "count": 33
+      },
+      {
+        "phrase": "number",
+        "count": 32
+      },
+      {
+        "phrase": "where",
+        "count": 32
+      }
+    ],
+    "ins": []
+  }
+}

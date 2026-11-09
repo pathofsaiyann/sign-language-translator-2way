@@ -1,0 +1,23 @@
+# Local credentials (templates only are shareable)
+.env
+*.env
+.env.*
+!.env.example
+# Interpreter/build caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Local environments
+.venv/
+.venv-webcam/
+# OS/editor/temporary files
+.DS_Store
+*.tmp
+*.log
+# Large reproducible datasets and run backups; preserve on disk
+**/data/processed/
+**/data/raw_shards/
+**/data/training_runs/
+**/data/extraction_runs/

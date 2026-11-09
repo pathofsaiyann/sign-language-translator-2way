@@ -1,0 +1,22 @@
+{
+  "zip_crc_verified": true,
+  "candidate_rows": 37175,
+  "unique_sample_ids": 37175,
+  "languages": {
+    "ase": 37175
+  },
+  "unique_source_videos": 2836,
+  "standalone_candidates_identical": true,
+  "training_ready": false,
+  "limitations": [
+    "No pose tensors",
+    "All candidate labels unreviewed",
+    "No ISL candidates in returned audit; source coverage or parsing needs investigation",
+    "Frequency includes names, branding, and subtitle artifacts",
+    "Colab code reconciled as metadata/VTT reader; language labels derive from subtitle tracks, not independently verified video sign language"
+  ],
+  "sha256": {
+    "report.json": "3f52242cfc5fb69ed0ba7dd495b1b960c53092b32fa4b01576e55344d6e8df88",
+    "candidates.jsonl": "9937c130d92eb34809a1337ec87db3074dde0f9cb005fc3345d65e21c01c64b0"
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two-way · Conversation</title>
+<link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+<header><div><span class="brand" aria-hidden="true">↔</span><strong>Two-way</strong><span class="tagline">Different ways to speak. One conversation.</span></div><span id="connection" role="status">Connecting…</span></header>
+<main>
+<div class="workspace">
+<section class="panel sam" aria-labelledby="sam-title">
+<div class="person"><span class="avatar" aria-hidden="true">S</span><div><h2 id="sam-title">Sam</h2><p>Deaf signer · Sign → Text</p></div><span class="badge">SIGN</span></div>
+<div class="camera"><video id="video" autoplay muted playsinline hidden></video><canvas id="camera-canvas" width="640" height="400" aria-label="Sam's live sign camera"></canvas><div id="camera-placeholder"><span aria-hidden="true">◉</span>Your camera appears here</div><button id="camera-toggle" type="button" aria-pressed="false">Start camera</button></div>
+<p id="sign-status" class="status" role="status">Camera is off.</p>
+<div class="gloss"><span>LIVE GLOSSES</span><output id="glosses">Glosses: []</output></div>
+<div class="draft-heading"><label for="sam-draft">Sentence draft</label><button id="preview" type="button" class="text-button">Translate glosses</button></div>
+<textarea id="sam-draft" maxlength="2000" rows="5" placeholder="Your translated signs appear here. Review or edit before sending."></textarea>
+<p class="hint">Raise both hands above shoulders to confirm and send your signs.</p>
+<button id="send-sam" type="button" class="send green" disabled>Send to Chat <span aria-hidden="true">↗</span></button>
+<p class="private-note">Drafts stay here until you confirm.</p>
+</section>
+<section class="chat-panel" aria-labelledby="chat-title">
+<div class="chat-header"><div class="pair-avatars" aria-hidden="true"><span>S</span><span>S</span></div><div><h1 id="chat-title">Sam &amp; Steve</h1><p>Shared conversation</p></div><span class="conversation-mark" aria-hidden="true">↔</span></div>
+<div class="chat-body"><div id="chat-stream" role="log" aria-live="polite" aria-relevant="additions" aria-label="Confirmed conversation messages"></div><div id="chat-empty"><span class="empty-icon" aria-hidden="true">↔</span><h3>A space for both of you.</h3><p>Sign or speak, review your draft,<br>then send it to start the conversation.</p></div></div>
+<div class="chat-footer"><span aria-hidden="true">✓</span> Only confirmed messages appear here.</div>
+</section>
+<section class="panel steve" aria-labelledby="steve-title">
+<div class="person"><span class="avatar" aria-hidden="true">S</span><div><h2 id="steve-title">Steve</h2><p>Hearing person · Voice → Text</p></div><span class="badge">VOICE</span></div>
+<div class="voice-card"><span class="mic-symbol" aria-hidden="true">◉</span><h3>Your voice, in words.</h3><p>Start the microphone to create a draft.</p><button id="mic-toggle" type="button" aria-pressed="false">◉ Start microphone</button></div>
+<p id="mic-status" class="status" role="status">Microphone is off. You can also type below.</p>
+<div class="language-row"><label for="language">Speech language</label><select id="language"><option value="en-US">English · US</option><option value="en-IN">English · India</option><option value="en-GB">English · UK</option></select></div>
+<label for="steve-draft" class="draft-heading">Speech draft</label>
+<textarea id="steve-draft" maxlength="2000" rows="5" placeholder="Speak or type your reply. Stop the microphone to edit your words."></textarea>
+<p id="speech-interim" class="interim" aria-label="Live speech preview"></p>
+<button id="send-steve" type="button" class="send blue" disabled>Send to Chat <span aria-hidden="true">↗</span></button>
+<p class="private-note">Your voice stays in the draft until you send.</p>
+<label class="audio"><input type="checkbox" id="tts"><span>Read Sam's messages aloud<small>Optional text-to-speech</small></span></label>
+</section>
+</div>
+<footer><span id="room-label"></span><span>Use Chrome on localhost or HTTPS. Camera and microphone are optional.<br>Browser speech recognition may process audio through its speech service.</span></footer>
+</main>
+</body>
+</html>

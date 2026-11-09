@@ -1,0 +1,7 @@
+# Lightweight webcam WebSocket client; no local inference dependencies.
+numpy>=1.26
+opencv-python>=4.8
+websockets>=15,<17
+python-dotenv>=1,<2
+# Existing server environment already has opencv-contrib-python; do not install
+# opencv-python alongside it. Use this file in a separate client environment.

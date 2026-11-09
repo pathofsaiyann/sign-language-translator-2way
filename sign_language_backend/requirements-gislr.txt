@@ -1,0 +1,5 @@
+numpy
+pandas
+pyarrow
+kagglehub>=1.0.3,<2
+requests>=2.31,<3

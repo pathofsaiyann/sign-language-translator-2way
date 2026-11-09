@@ -1,0 +1,21 @@
+{
+  "hello": 0,
+  "bye": 1,
+  "thankyou": 2,
+  "please": 3,
+  "yes": 4,
+  "no": 5,
+  "bad": 6,
+  "water": 7,
+  "drink": 8,
+  "food": 9,
+  "wait": 10,
+  "home": 11,
+  "see": 12,
+  "look": 13,
+  "go": 14,
+  "tomorrow": 15,
+  "where": 16,
+  "who": 17,
+  "man": 18
+}

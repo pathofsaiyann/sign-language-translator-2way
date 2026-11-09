@@ -1,0 +1,22 @@
+{
+  "verified_samples": 7327,
+  "expected_source_rows": 7327,
+  "split_totals": {
+    "train": 5967,
+    "val": 1360
+  },
+  "actual_participants": {
+    "train": 17,
+    "val": 4
+  },
+  "participant_overlap": 0,
+  "shape": [
+    64,
+    180
+  ],
+  "dtype": "float32",
+  "all_finite": true,
+  "unindexed_npy_files": 0,
+  "invalid_normalization_samples": [],
+  "source_failures": []
+}

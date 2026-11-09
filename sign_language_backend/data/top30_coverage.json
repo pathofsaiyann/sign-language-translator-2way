@@ -1,0 +1,182 @@
+[
+  {
+    "index": 0,
+    "label": "hello",
+    "eligible_videos": 82,
+    "existing_tensors": 10
+  },
+  {
+    "index": 1,
+    "label": "thank you",
+    "eligible_videos": 101,
+    "existing_tensors": 10
+  },
+  {
+    "index": 2,
+    "label": "please",
+    "eligible_videos": 13,
+    "existing_tensors": 0
+  },
+  {
+    "index": 3,
+    "label": "help",
+    "eligible_videos": 6,
+    "existing_tensors": 0
+  },
+  {
+    "index": 4,
+    "label": "yes",
+    "eligible_videos": 54,
+    "existing_tensors": 10
+  },
+  {
+    "index": 5,
+    "label": "no",
+    "eligible_videos": 36,
+    "existing_tensors": 10
+  },
+  {
+    "index": 6,
+    "label": "water",
+    "eligible_videos": 9,
+    "existing_tensors": 0
+  },
+  {
+    "index": 7,
+    "label": "food",
+    "eligible_videos": 7,
+    "existing_tensors": 0
+  },
+  {
+    "index": 8,
+    "label": "sorry",
+    "eligible_videos": 11,
+    "existing_tensors": 0
+  },
+  {
+    "index": 9,
+    "label": "stop",
+    "eligible_videos": 11,
+    "existing_tensors": 0
+  },
+  {
+    "index": 10,
+    "label": "more",
+    "eligible_videos": 6,
+    "existing_tensors": 0
+  },
+  {
+    "index": 11,
+    "label": "eat",
+    "eligible_videos": 4,
+    "existing_tensors": 0
+  },
+  {
+    "index": 12,
+    "label": "drink",
+    "eligible_videos": 7,
+    "existing_tensors": 0
+  },
+  {
+    "index": 13,
+    "label": "wait",
+    "eligible_videos": 4,
+    "existing_tensors": 0
+  },
+  {
+    "index": 14,
+    "label": "good",
+    "eligible_videos": 17,
+    "existing_tensors": 0
+  },
+  {
+    "index": 15,
+    "label": "bad",
+    "eligible_videos": 4,
+    "existing_tensors": 0
+  },
+  {
+    "index": 16,
+    "label": "name",
+    "eligible_videos": 5,
+    "existing_tensors": 0
+  },
+  {
+    "index": 17,
+    "label": "friend",
+    "eligible_videos": 7,
+    "existing_tensors": 0
+  },
+  {
+    "index": 18,
+    "label": "house",
+    "eligible_videos": 6,
+    "existing_tensors": 0
+  },
+  {
+    "index": 19,
+    "label": "work",
+    "eligible_videos": 7,
+    "existing_tensors": 0
+  },
+  {
+    "index": 20,
+    "label": "today",
+    "eligible_videos": 6,
+    "existing_tensors": 0
+  },
+  {
+    "index": 21,
+    "label": "tomorrow",
+    "eligible_videos": 4,
+    "existing_tensors": 0
+  },
+  {
+    "index": 22,
+    "label": "need",
+    "eligible_videos": 4,
+    "existing_tensors": 0
+  },
+  {
+    "index": 23,
+    "label": "want",
+    "eligible_videos": 11,
+    "existing_tensors": 0
+  },
+  {
+    "index": 24,
+    "label": "where",
+    "eligible_videos": 18,
+    "existing_tensors": 0
+  },
+  {
+    "index": 25,
+    "label": "when",
+    "eligible_videos": 9,
+    "existing_tensors": 0
+  },
+  {
+    "index": 26,
+    "label": "who",
+    "eligible_videos": 14,
+    "existing_tensors": 0
+  },
+  {
+    "index": 27,
+    "label": "how",
+    "eligible_videos": 10,
+    "existing_tensors": 0
+  },
+  {
+    "index": 28,
+    "label": "see",
+    "eligible_videos": 2,
+    "existing_tensors": 0
+  },
+  {
+    "index": 29,
+    "label": "meet",
+    "eligible_videos": 3,
+    "existing_tensors": 0
+  }
+]

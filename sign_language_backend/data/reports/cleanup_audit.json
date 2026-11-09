@@ -1,0 +1,72 @@
+{
+  "protected_assets": {
+    "sign_language_backend/metadata.json": "00219dcf496db3b866d36213da8b1f4f9aad1cc9f4ce0fc1a10f2841202057d9",
+    "sign_language_backend/data/training_history.json": "14f5da1d01fd632bc63c7468edf18d8e2aae7280b854748a89e2563fc10f4f76",
+    "sign_language_backend/models/labels_19class.json": "06380a7e9a616180b6dd83465d0ffd581ddca57aa3f2d0de20f4c4ca8ce70f91",
+    "sign_language_backend/models/model_gislr_19class.config.json": "c23aff8ffecdbe47ba5e93f6e9fc5cca6a57fc941750dca20e8b5a6f525d7b33",
+    "sign_language_backend/models/model_gislr_19class.pth": "d9d9b0e7966513a73d0fe10bf95ba367cbafe8eba3366dc43348cbff337e6e67"
+  },
+  "processed_files": 7327,
+  "removed_files": [
+    "scripts/extract_pilot.py",
+    "scripts/train_pilot.py",
+    "scripts/train_model.py",
+    "scripts/verify_dataset.py",
+    "scripts/fetch_gislr_archive.py",
+    "tests/test_pilot.py",
+    "tests/test_train_pilot.py",
+    "tests/test_archive_fetch.py",
+    "tests/test_webcam_browser.cjs",
+    "COLAB.md",
+    "web/webcam.html",
+    "web/webcam.js"
+  ],
+  "moved_files": {
+    "scripts/gislr_preprocessing.py": "scripts/_shared/preprocessing.py",
+    "GISLR.md": "docs/DATASET.md",
+    "WEBSOCKET.md": "docs/WEBSOCKET.md",
+    "WEBCAM.md": "docs/CLI_CLIENT.md"
+  },
+  "protected_assets_unchanged": true,
+  "processed_files_after": 7327,
+  "security_scan": {
+    "scanned_text_files": 54,
+    "scope": "Project text; excludes private .env, virtual environments and dataset caches",
+    "credential_literal_locations": [],
+    "private_env_mode": "0o600"
+  },
+  "removed_source_caches_and_temporary_files": [
+    ".DS_Store",
+    "sign_language_backend/tests/__pycache__",
+    "sign_language_backend/scripts/__pycache__"
+  ],
+  "gitignore_verification": {
+    "protected_path_cases": 11,
+    "all_ignored": true,
+    "template_shareable": true,
+    "no_existing_git_repository": "Workspace has no .git; patterns tested in an isolated temporary repository"
+  },
+  "tests": {
+    "runtime_training_client": 41,
+    "extraction": 6,
+    "frontend_node": 3,
+    "total_passed": 50,
+    "llm_requests": "mocked",
+    "live_media_and_provider_accuracy": "not verified"
+  },
+  "dependency_findings": {
+    "pillow_remediated_to": "13.0.0",
+    "remaining_package": "protobuf 4.25.9",
+    "remaining_unique_advisory": "PYSEC-2026-1805",
+    "reason": "MediaPipe 0.10.21 requires protobuf<5; fixed versions are outside this constraint",
+    "runtime_pip_check": "MediaPipe platform metadata warning remains; real Holistic smoke passed"
+  },
+  "final_verification": {
+    "all_python_sources_parse": true,
+    "post_documentation_text_files_scanned": 55,
+    "hardcoded_credentials_found": 0,
+    "project_python_cache_directories_remaining": 0,
+    "protected_asset_hashes_unchanged": true,
+    "maintained_document_links_valid": true
+  }
+}
